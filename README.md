@@ -1,5 +1,9 @@
 # Demorse
 ![obraz](https://user-images.githubusercontent.com/45152848/134786084-6e3bf6e2-a599-465e-9ad5-0c5be600fd62.png)
+![obraz](https://user-images.githubusercontent.com/45152848/134787450-b3f1eed4-7666-4ec8-9779-86b46e2dae8d.png)
+![obraz](https://user-images.githubusercontent.com/45152848/134787455-91a794dc-d122-47d7-81e4-4ddf619decd8.png)
+![obraz](https://user-images.githubusercontent.com/45152848/134787456-804c005c-fdc4-48e8-9ac5-361541c689f5.png)
+
 
 ## Table of contents
 * [General info](#general-info)

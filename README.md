@@ -16,7 +16,7 @@ Project is created with:
 * Python 3: 
 	
 ## Setup
-To run this project, install it locally using Git:
+To run this program, install it locally using Git:
 ### Linux
 ```
 $ git clone https://github.com/kerszl/demorse

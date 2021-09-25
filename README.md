@@ -34,7 +34,8 @@ $ python3 demorse.py
 ## Remove
 ### Linux
 ```
-./uninstall
+$ cd [demorse clone directory]
+$ ./uninstall
 ```
 ### Windows
 Just remove 

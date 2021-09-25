@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # v0.0.1 25.09.2021
 # Kerszi (Szikers)
-# git - https://github.com/kerszl/smalls/demorse
+# git - https://github.com/kerszl/demorse
 import argparse
 from os import sys
 import re

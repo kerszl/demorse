@@ -1,4 +1,5 @@
 # Demorse
+![obraz](https://user-images.githubusercontent.com/45152848/134786084-6e3bf6e2-a599-465e-9ad5-0c5be600fd62.png)
 
 ## Table of contents
 * [General info](#general-info)
@@ -18,7 +19,7 @@ Project is created with:
 To run this project, install it locally using Git:
 ### Linux
 ```
-$ git clone https://github.com/kerszl/smalls/demorse
+$ git clone https://github.com/kerszl/demorse
 $ cd demorse
 $ chmod +x install uninstall
 $ ./install
@@ -26,7 +27,7 @@ $ ./install
 ```
 ### Windows
 ```
-$ git clone https://github.com/kerszl/smalls/demorse
+$ git clone https://github.com/kerszl/demorse
 $ cd demorse
 $ python3 demorse.py
 ```

@@ -21,7 +21,7 @@ To run this project, install it locally using Git:
 ```
 $ git clone https://github.com/kerszl/demorse
 $ cd demorse
-$ chmod +x install uninstall
+$ chmod +x install.sh uninstall.sh
 $ ./install
 
 ```

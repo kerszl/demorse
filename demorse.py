@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# v0.0.1 25.09.2021
+# v0.0.2 12.10.2021
 # Kerszi (Szikers)
 # git - https://github.com/kerszl/demorse
 import argparse
@@ -77,14 +77,27 @@ convert it to "hello".
 Example: demorse -t ".... . .-.. .-.. ---"
     """, formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument('-t', '--text', type=str, help="Text to decode", default=None, nargs=argparse.REMAINDER)
+    parser.add_argument('-f', '--file', type=str, help="File to decode", default=None, nargs=argparse.REMAINDER)    
     
-    args = parser.parse_args()
-        
+    
+    args = parser.parse_args()    
+
     if args.text:        
         return str(args.text)
-    else:      
-        parser.print_help()
-        return None
+
+    if args.file:          
+        try:
+            FileName=args.file[0]
+            with open(FileName) as f:
+                text_=f.read()            
+            return str(text_)
+        except Exception as error:
+            print (error)
+            exit ()    
+    parser.print_help()
+    return None
+    
+    
 
 def decode_morse_code(pure_morse_code_2_decode):
     decode_string =""
@@ -111,7 +124,6 @@ def leave_plain_text (morse_string_code):
          return None
 
 #----
-
 
 def just_decode (text2decode):    
     if text2decode:        

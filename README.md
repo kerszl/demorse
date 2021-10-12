@@ -45,3 +45,4 @@ Just remove
 demorse -t "This is not ....-.-. a morse code, but it is \..../.\.-.. .-..|---"
 demorse -t ... --- ...
 ```
+![obraz](https://user-images.githubusercontent.com/45152848/134787450-b3f1eed4-7666-4ec8-9779-86b46e2dae8d.png)
